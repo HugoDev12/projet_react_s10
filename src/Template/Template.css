@@ -1,16 +1,22 @@
 
 header, footer {
     height: 25vh;
-    background-color: blue;
+    background-color:rgb(74, 12, 7);
+    color: white;
 }
+
+/* body {
+    background-image: url("./star-wars-header.jpg");
+} */
+
 
 nav {
     padding: 2rem 0 2rem 0;
-    background-color: gray;
+    background-color: hsl(12, 86%, 50%);
 }
 
 nav>a {
     list-style: none;
-    color: inherit;
+    color: white;
     text-decoration: none;
 }
