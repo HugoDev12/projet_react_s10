@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import SwapiItems from "./SwapiItems";
 import Nav from "../Template/Nav";
 

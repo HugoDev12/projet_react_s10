@@ -16,7 +16,9 @@ function SearchMain(props){
                 <table className="table table-dark tabled-striped">
                 <tbody>
                     {props.th.map((headers, key) =>
-                    <tr key={key} className="row"><td className="col-5 col-lg-3 text-center">{headers}</td>{content.shift()}</tr>
+                        <tr key={key} className="row">
+                            <td className="col-5 col-lg-3 text-center">{headers}</td>{content.shift()}
+                        </tr>
                     )}
                 </tbody>
                 </table>
