@@ -1,0 +1,16 @@
+
+header, footer {
+    height: 25vh;
+    background-color: blue;
+}
+
+nav {
+    padding: 2rem 0 2rem 0;
+    background-color: gray;
+}
+
+nav>a {
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}

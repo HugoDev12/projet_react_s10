@@ -1,0 +1,13 @@
+ 
+table, tr, th, td {
+width: 80vw;   
+height: 5em;
+max-height: 50px;
+overflow:auto;
+}
+
+input {
+    margin-left: 3rem;
+}
+
+
